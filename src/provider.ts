@@ -3,6 +3,8 @@ import { stringify } from "query-string";
 import { DataProvider } from "@pankod/refine-core";
 import { axiosInstance, generateSort, generateFilter } from "./utils";
 
+import {} from "@azure/storage-blob"
+
 export const dataProvider = (
     apiUrl: string,
     httpClient: AxiosInstance = axiosInstance,
